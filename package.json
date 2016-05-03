@@ -1,0 +1,45 @@
+{
+  "name": "angular-gulp-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cmhaas19/angular-gulp-template.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cmhaas19/angular-gulp-template/issues"
+  },
+  "homepage": "https://github.com/cmhaas19/angular-gulp-template#readme",
+  "devDependencies": {
+    "babelify": "^7.3.0",
+    "bower": "^1.7.9",
+    "browserify": "^13.0.0",
+    "browserify-ngannotate": "^2.0.0",
+    "browserify-shim": "^3.8.12",
+    "debowerify": "^1.4.1",
+    "exorcist": "^0.4.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-if": "^2.0.0",
+    "gulp-less": "^3.0.5",
+    "gulp-plumber": "^1.1.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-util": "^3.0.7",
+    "ngify": "^1.6.2",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.7.0",
+    "yargs": "^4.6.0"
+  },
+  "browser": {
+    "angular": "./scripts/lib/angular/angular.js"
+  },
+  "browserify-shim": {
+    "angular": "global:angular"
+  }
+}
